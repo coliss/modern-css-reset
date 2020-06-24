@@ -1,17 +1,17 @@
-/* Box sizing rules */
+/* box-sizingの定義 */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Remove default padding */
+/* デフォルトのpaddingを削除 */
 ul[class],
 ol[class] {
   padding: 0;
 }
 
-/* Remove default margin */
+/* デフォルトのmarginを削除 */
 body,
 h1,
 h2,
@@ -27,41 +27,41 @@ dd {
   margin: 0;
 }
 
-/* Set core root defaults */
+/* ルートのデフォルトの設定 */
 html {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
+/* bodyのデフォルトの設定 */
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
 
-/* Remove list styles on ul, ol elements with a class attribute */
+/* class属性を持つ ul, ol 要素のリストスタイルを削除 */
 ul[class],
 ol[class] {
   list-style: none;
 }
 
-/* A elements that don't have a class get default styles */
+/* classを持たない要素はデフォルトのスタイルを取得 */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+/* 画像を扱いやすくする */
 img {
   max-width: 100%;
   display: block;
 }
 
-/* Natural flow and rhythm in articles by default */
+/* 記事の自然な流れとリズム */
 article > * + * {
   margin-top: 1em;
 }
 
-/* Inherit fonts for inputs and buttons */
+/* 入力欄とボタンのフォントを継承 */
 input,
 button,
 textarea,
@@ -69,12 +69,12 @@ select {
   font: inherit;
 }
 
-/* Blur images when they have no alt attribute */
+/* alt属性を持たない画像をぼかす */
 img:not([alt]) {
   filter: blur(10px);
 }
 
-/* Remove all animations and transitions for people that prefer not to see them */
+/* 見たくない人のために、すべてのアニメーションとトランジションを削除 */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
