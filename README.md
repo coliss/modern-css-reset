@@ -9,7 +9,7 @@ CSSプロジェクトの基礎となる小さなリセットです。[内訳は�
 
 **翻訳**
 
-[README.md](https://github.com/coliss/modern-css-reset/master/README.md)（本ページ）と[normalize.css](https://github.com/coliss/normalize.css/blob/master/normalize.css)を日本語に翻訳しました。
+[README.md](https://github.com/coliss/modern-css-reset/master/README.md)（本ページ）と[reset.css](https://github.com/coliss/modern-css-reset/blob/master/dist/reset.css)を日本語に翻訳しました。
 
 ## インストール
 
