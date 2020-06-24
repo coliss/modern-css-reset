@@ -5,9 +5,9 @@
 ![The Brotli size of this reset](https://img.badgesize.io/https://unpkg.com/modern-css-reset?compression=brotli&label=Brotli%20Size)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A tiny little reset that you can use as the basis of your CSS projects. You can read a [breakdown of it here](https://hankchizljaw.com/wrote/a-modern-css-reset/).
+CSSプロジェクトの基礎となる小さなリセットです。[内訳はこちらから](https://hankchizljaw.com/wrote/a-modern-css-reset/)読むことができます。
 
-## Installation
+## インストール
 
 NPM:
 
@@ -33,31 +33,31 @@ jsDelivr CDN:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
 ```
 
-### Manual installation
+### マニュアルインストール
 
-First, let's clone this repository:
+まずは、このリポジトリをクローンしてみましょう:
 
 ```console
 git clone https://github.com/hankchizljaw/modern-css-reset.git
 ```
 
-Then, go to `modern-css-reset` directory:
+そして、`modern-css-reset` ディレクトリに移動します:
 
 ```console
 cd modern-css-reset
 ```
 
-And now, you can minify and move the main reset to the `dist` by running:
+下記のように実行することで、メインリセットを `dist` に移動させることができます:
 
 ```console
 npm run build
 ```
 
-That's it! 🎉
+これで完了です 🎉
 
 ## その他のCSSリセット・ノーマライズ
 [モダンブラウザに適したCSSリセットのまとめ](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
 
-## License
+## ライセンス
 
 MIT
