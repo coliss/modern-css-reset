@@ -55,6 +55,9 @@ npm run build
 
 That's it! 🎉
 
+## その他のCSSリセット・ノーマライズ
+[モダンブラウザに適したCSSリセットのまとめ](https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html)
+
 ## License
 
 MIT
